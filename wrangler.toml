@@ -1,0 +1,8 @@
+name = "f-drop"
+main = "src/worker.js"
+compatibility_date = "2026-03-01"
+
+[[r2_buckets]]
+binding = "FILE_BUCKET"
+bucket_name = "f-drop-bucket"
+preview_bucket_name = "f-drop-bucket"
