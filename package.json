@@ -1,1 +1,14 @@
-{ "name": "f-drop", "version": "1.0.0", "description": "Temporary file drop service using Cloudflare Workers & R2", "main": "src/worker.js", "scripts": { "deploy": "wrangler publish", "dev": "wrangler dev", "login": "wrangler login" }, "keywords": ["file-upload", "file-download", "cloudflare", "workers", "r2"], "author": "catchfu", "license": "MIT", "devDependencies": { "wrangler": "^3.0.0" } }
+{
+  "name": "f-drop",
+  "version": "1.0.0",
+  "description": "Temporary file drop using Cloudflare Workers and R2",
+  "main": "src/worker.js",
+  "scripts": {
+    "deploy": "wrangler publish",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
