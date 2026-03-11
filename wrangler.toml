@@ -2,7 +2,11 @@ name = "f-drop"
 main = "src/worker.js"
 compatibility_date = "2026-03-01"
 
+routes = [
+  { pattern = "f-drop.moltbot.de5.net", custom_domain = true }
+]
+
 [[r2_buckets]]
-binding = "FILE_BUCKET"
+binding = "f_drop_bucket"
 bucket_name = "f-drop-bucket"
 preview_bucket_name = "f-drop-bucket"

@@ -4,11 +4,10 @@
   "description": "Temporary file drop using Cloudflare Workers and R2",
   "main": "src/worker.js",
   "scripts": {
-    "deploy": "wrangler publish",
+    "deploy": "wrangler deploy",
     "dev": "wrangler dev"
   },
-  "dependencies": {},
   "devDependencies": {
-    "wrangler": "^3.0.0"
+    "wrangler": "^4.71.0"
   }
 }
